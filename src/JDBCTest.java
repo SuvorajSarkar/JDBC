@@ -16,21 +16,22 @@ public class JDBCTest {
                 System.out.println("Table empData already exists");
             }
 
-            /*
-             * //insert records
-             * EmployDatabase.insertRecords(con);
-             * System.out.println("records inserted succesfully");
-             * 
-             * //UPDATE RECORDS
-             * EmployDatabase.updateRecords(con);
-             * System.out.println("records update succesfully");
-             * 
-             * //SELECT RECORDS(read)
-             * EmployDatabase.selectRecord(con);
-             * 
-             * //Delete records
-             * EmployDatabase.DeleteRecord(con);
+            /* 
+              //insert records
+              EmployDatabase.insertrecords(con);
+              System.out.println("records inserted succesfully");
              */
+              /*
+              //UPDATE RECORDS
+              EmployDatabase.updateRecords(con);
+              System.out.println("records update succesfully");
+              */
+              //SELECT RECORDS(read)
+              //EmployDatabase.selectRecord(con); 
+              
+             //Delete records
+              EmployDatabase.DeleteRecord(con);
+             
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (Exception e1) {
